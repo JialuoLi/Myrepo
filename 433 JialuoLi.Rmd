@@ -1,0 +1,24 @@
+---
+title: "new 433 HW"
+author: "Jialuo Li"
+date: "9/19/2021"
+output:
+  html_document:
+    df_print: paged
+  github_document:
+    df_print: paged
+  pdf_document: default
+---
+
+```{r}
+
+library(readr)
+X<-read_table("bridge.txt",col_names = FALSE)
+X
+str(X)
+```
+
+# Github repository
+https://github.com/JialuoLi/Myrepo
+
+
